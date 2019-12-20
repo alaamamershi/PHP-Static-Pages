@@ -1,0 +1,94 @@
+/**************************************************************
+ * StyleSheet.css
+ * 
+ * Author:          Alaam Amershi
+ * Date:            12/17/19
+ * Last Modified:   12/20/19
+ * 
+ * Description:
+ * Side-Wide styling.
+ */
+
+
+/**************************************************************
+ * HTML5 TAG HELPERS
+ */
+
+nav {
+    background-color: darkgray;
+    border-bottom: 2px solid #999999;
+}
+
+
+/**************************************************************
+ * HTML ELEMENTS
+ */
+
+body {
+    background-color: lightgray;
+}
+
+
+/**************************************************************
+ * CLASSES
+ */
+
+.indented {
+    margin-left: 15px;
+}
+
+.fieldLabelContainer {
+    text-align: right;
+    justify-content: right;
+}
+
+.fieldLabel {
+    font-weight: bold;
+}
+
+.treeItem {
+    list-style-type: none;
+    position: relative;
+}
+
+.treeItem:before {
+    content: "\25BA";
+    position: absolute;
+    left: -20px;
+}
+
+.infoContainer {
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 2px solid blue;
+}
+
+.alertContainer {
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 2px solid red;
+}
+
+.containerHeader {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/**************************************************************
+ * CUSTOM BOOTSTRAP
+ */
+
+.navbar-toggler {
+    background-color: gray !important;
+    border: 1px solid #333333 !important;
+}
+
+.jumbotron {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.card {
+    background-color: #bbbbbb;
+}
